@@ -2,14 +2,15 @@
 
 % moderncv themes
 %\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
-\moderncvtheme[black]{classic}                % idem
+\moderncvtheme[blue]{classic}                % idem
 
 \usepackage[T1]{fontenc}
 % character encoding
 \usepackage[utf8x]{inputenc}                   % replace by the encoding you are using
 \usepackage[italian]{babel}
 
-\renewcommand*{\namefont}{\fontsize{30}{40}\mdseries\upshape}
+\renewcommand*{\namefont}{\fontsize{24}{32}\mdseries\upshape}
+
 
 % adjust the page margins
 \usepackage[scale=0.85]{geometry}
@@ -20,12 +21,12 @@
 \fancyfoot[RE,LO]{\footnotesize } % other info in "inner" position of footer line
 
 % personal data
-\firstname{M.S. Becerril \smallskip Domínguez}  
-\familyname{ \\ Óscar Azeem}
+\firstname{M.S. Becerril Domínguez} %\smallskip  
+\familyname{ \\Óscar Azeem}
 \title{Curriculum Vitae}               % optional, remove the line if not wanted
-\address{}{México, CDMX}    % optional, remove the line if not wanted
+\address{México, CDMX}{}    % optional, remove the line if not wanted
 \mobile{55 10789872}                    % optional, remove the line if not wanted
-%\phone{57994171}                      % optional, remove the line if not wanted
+%\phone{}                      % optional, remove the line if not wanted
 %\fax{312 996 1491}                          % optional, remove the line if not wanted
 \email{admin@redirac.com}                      % optional, remove the line if not wanted
 %\extrainfo{additional information (optional)} % optional, remove the line if not wanted
@@ -42,84 +43,103 @@
 \vspace{-10mm}
 
 %Section
-\section{Info}
-\cvcomputer{Born}{\small October 22, 1992 at México (CDMX)\normalsize}{\tiny .}{\small \tiny \normalsize}
-\cvcomputer{}{\small 25 years old\normalsize}{\tiny .}{\small \tiny \normalsize}
-\cvcomputer{Webpage}{\small \url{http://redirac.com}\normalsize}{}{\small}
-%\cvcomputer{Additional Address}{J.Salvadora 14, Ciglenica, 44320 Kutina, Croatia}{Driving License}{\small B\normalsize}
-\cvcomputer{LinkedIn}{\small \url{http://www.linkedin.com/in/oscarazeem/}\normalsize}{}{}
+\section{Information}
+%\cvcomputer{Nacimiento}{\small Octubre 22, 1992. en México (DF)}\normalsize}{Nacionalidad}{\small Mexicana \normalsize}
 
+\cvcomputer{Born}{\small October 22, 1992 (25 years old). Mexico.\normalsize}{\tiny .}{\small \tiny \normalsize}
+
+%\cvcomputer{Additional Address}{J.Salvadora 14, Ciglenica, 44320 Kutina, Croatia}{Driving License}{\small B\normalsize}
+\cvcomputer{LinkedIn}{\small \url{https://www.linkedin.com/in/oscarazeem/}\normalsize}{Webpage}{\small \url{http://redirac.com}\normalsize}
+%\cvcomputer{Blog}{\small \url{http://ntrpivan.blogspot.com}\normalsize}{Skype}{\small ivan.ntrp}
 
 \vspace{-2mm}
 
 %Section
-\section{Desidered Employment and Current Skills}
-\cvline{}{\Large Machine Learning Analyst; Network Engineer; Programmer; IT}
-\cvline{}{\small Over the years, thanks to my thirst of knowledge, I have gained experience in computer science, ranging from network computers, operating systems and programming languages. Along this path I have been improving my approximation to the problems, trying to implement, generalize and optimize the solutions. In academic problems I have been able to work with external groups. Another of my habilities it's the capacity to solve almost any computational problem thanks to my excelent skill to search information and the time i've been working in the computational field. %
-Currently working and with experience in Machine Learning algorithms, after building a Network Intrusion Detection System for my master's thesis }
-
+\section{Professional Experience}
+\cvline{}{%Header
+	\Large Data Scientist and BI developer}
+\cvline{}{%Descripción
+	\small
+	%start
+	%
+	Experience as a Business Intelligence (BI) developer at the Bancomer company,  using multiple Database Management Systems (DBMS) such as Oracle, Teradata, MySQL; for extraction, transformation, and load of historic/stage tables; processes known as ETL.  Such process it's done through the Informatica Power Center BI software. Automation it's done by BASH/KSH scripts and the Python language. 
+	Experience as Data Analyst at the AT\&T company, applying machine learning algorithms through the Python language using the ScikitLearn and Tensorflow libraries, with the purpose of 3G/4G cells classification by degradation levels; also regression analysis for failure probability in each cell. 
+	Develop of an automatic report system using BASH, SQL, Python(Pandas) scripts. 
+	Experience as Python/R Machine Learning developer by Master's Thesis by the development of a Network Intrusion Detection System (NIDS) using Machine Learning Algorithms as KNN, Decision Threes, Random Forest, Kernelized Support Vector Machines, Neuronal Networks, all using Python/R, applied to the Knowledge Discovery Database (KDD) with four million of vectors and NSLKDD (a newest version).  All the algorithms listed before were applied as a fitness function within the heuristic search algorithms such as Random Mutation Hill Climbing (RMHC), Simulated Annealing (SA), Genetic Algorithms (GA) e Ions Motion Optimization Algorithm (IMO), all with the purpose of selecting relevant features  (feature selection) within the 41 columns dataset. 	
+	%
+%end
+}
 \vspace{-4mm}
 
 %Section
-\section{Computer Skills} 
-\cvline{Languages}{\small C, C++, C~$\#$, ASM, BASH, \LaTeX, Python}
-\cvcomputer{Platforms}{Unix, Linux, Windows, MAC OSX, Arduino, Cisco IOS}  {}{}
-\cvline{Tools}{Git, Grep, Emacs, Eclipse IDE, Netbeans IDE, Sublime Text, TexStudio, TexMaker, Matematica, Matlab, Microsoft Office Suite, Photoshop, Gimp, Wireshark, Cisco Packet Tracer, GNS3, TensorFlow, Scikit-Learn, MySQL}
-\vspace{-3mm}d
+\section{Computational Skills and Agile Software Developments} 
+\cvline{Languages}{Python, R, SQL, BASH, KSH, \small C, C++, C~$\#$, Matlab, ASM, \LaTeX}
+\cvline{DBMS}{Teradata, Oracle, MySQL}
+\cvline{BI}{Informatica Power Center, Workflow, Designer, Repository, Monitor}
+\cvline{Platforms}{Unix, Linux, Windows, MAC OSX, Arduino, Cisco IOS}  {}{}
+\cvline{Tools - Libraries}{
+	Git, Github, ScikitLearn, Tensorflow, Numpy, Pandas, Matplotlib, Seaborn, Teradata Studio, Oracle Developer, MySQL Workbench,
+	Emacs, Eclipse IDE, Sublime Text, TexStudio, Matlab, Office Suite, Jupyter Notebook.}
+\cvline{Agile}{Scrum}  {}{}
 
-%Section
-
-\section{Education}
-\cventry{2015-2017}{M.S. Telecommunications Engineering}{\href{http://www.sepi.esimez.ipn.mx//}{Instituto Politécnico Nacional}}{Sección de Estudios de Posgrado e Invesgigación (SEPI) ESIME}{Zacatenco}{Master's Degree. Network computer and Machine Learning speciality. Credits completed}
-
-\cventry{2010-2015}{Communications and Electronics Engineering}{\href{http://www.esimez.ipn.mx//}{Instituto Politécnico Nacional}}{ESIME}{Zacatenco}{University's Degree. Computation speciality with professional license}
-  
-\cventry{2007-2010}{Network Computer Technician}{\href{http://www.cet1.ipn.mx/}{Instituto Politécnico Nacional, CET 1}}{Walter Cross Buchanan}{Bachelor's Degree}{}
-
-%\cventry{2004-2007}{Técnico en Secretariado}{Escuela Secundaria Técnica}{No. 90}{Arturo Rosenblueth Stearns}{Educación Secundaria}{}
 \vspace{-3mm}
 
 \newpage
+
+%Section
+\section{Work Experience}
+
+\cventry{03/2018-06/2018}{AT\&T - Ibérica}{Jr. Data Analyst}{Triage area. 3G/4G cells quality monitoring}{}{}
+\vspace{-1mm}
+
+\cventry{06/2018-current}{Bancomer - Softtek }{Business Intelligence developer}{ETL-IPC development}{}{}{}
+\vspace{-1mm}
+
+
+\section{Education}
+\cventry{2016-2018}{M.S. Telecommunications Engineering}{\href{http://www.sepi.esimez.ipn.mx//}{Instituto Politécnico Nacional}}{Sección de Estudios de Posgrado e Invesgigación (SEPI) ESIME}{Zacatenco}{Master's Degree. Network computer and Machine Learning speciality. Professional licence in progress}
+
+\cventry{2011-2016}{Communications and Electronics Engineering}{\href{http://www.esimez.ipn.mx//}{Instituto Politécnico Nacional}}{ESIME}{Zacatenco}{Bachelor's Degree. Computation speciality with professional license}
+
+%Section
 \section{Languages}
 %\hspace{25mm}\small  Porcentajes de Idiomas \href{}{}
 %\vspace{5mm}
+Twenty levels taken at ``Quick Learning'' English school. Level B1 endorse by ``Centro de Lenguas Extranjeras del Instituto Politécnico Nacional''
+\\
 
-Twenty levels taken at ``Quick Learning'' english school. Level B1 endorse by ``Centro de Lenguas Extranjeras del Instituto Politécnico Nacional''
-
-
-\begin{tabular}{p{67mm} p{40mm} p{40mm} p{20mm}}
+\begin{tabular}{p{67mm} p{40mm} p{45mm} p{20mm}}
 & \textbf{Comprehension} & \textbf{Speaking} & \textbf{Writing} \\
 \end{tabular}
 
+
 \begin{tabular}{p{67mm} p{20mm} p{20mm} p{20mm} p{20mm} p{20mm}}
-& Listening & Reading & Interaction & Production & \\
+& Listening & Reading   & Interaction & Production & \\
 \end{tabular}
 
-
 \vspace{3mm}
-\cvlanguage{Spanish}{Mother Tongue}{
+\cvlanguage{Spanish}{Mother tongue}{
 	\begin{tabular}{ p{20mm} p{20mm} p{20mm} p{20mm} p{21mm}}
 		100\% & 100\% & 100\% & 100\% & 100\%
 	\end{tabular}}
 \cvlanguage{English}{Advanced}{
 	\begin{tabular}{ p{20mm} p{20mm} p{20mm} p{20mm} p{21mm}}
-		90\% & 95\% & 90\% & 90\% & 90\%
+		95\% & 100\% & 90\% & 90\% & 95\%
 	\end{tabular}}
-	
+
+
+%Section
+
+
+
+
+
 \section{Courses}
-
-%\cventry{Plataforma Udemy}{Python A-Z: Python For Data Science}{\href{https://www.udemy.com}}{}{}{}{}{}
-%
-%\cventry{Plataforma Udemy}{Bash Programming Course}{\href{https://www.udemy.com}{}}{}{}{}{}
-%
-%\cventry{Plataforma Udemy}{The Complete Wireshark Course}{\href{https://www.udemy.com}{}}{}{}{}{}
-%
-%\cventry{Plataforma Udemy}{CCNA 2017 200-125 Video Boot Camp}{\href{https://www.udemy.com}{}}{}{}{}{}
-%
-
-
-\cventry{Platform Udemy}{Python A-Z: Python For Data Science, Bash Programming Course, The Complete Wireshark Course, CCNA 2017 200-125 Video Boot Camp}{}{}{}{}{}
-\vspace{-3mm}
+\cventry{2018-Softtek}{ETL - Informatica PowerCenter, SCRUM, SQL}{}{}{}{}
+\cventry{" -Coursera}{IBM - Data Scientist}{}{}{}{}
+\cventry{2017-Udemy}{Python A-Z: Python For Data Science, Bash Programming Course, The
+	Complete Wireshark Course, CCNA 2017 200-125 Video Boot Camp}{}{}{}{}
+\vspace{-1mm}
 
 
 \section{Conferences}
@@ -133,20 +153,7 @@ Twenty levels taken at ``Quick Learning'' english school. Level B1 endorse by ``
 \cventry{2016}{Congreso Nacional de Expo Acustica}{http://www.expoacustica.ipn.mx/}{Topic: ``Uso de algoritmos de ML en el reconocimiento de voz''}{México. CDMX}{}{}{}
 
 
-
-
 \vspace{-3mm}
 
-
-%Section
-%\section{Intereses y Hobbies}
-%\cvline{}{\small Busco generar el conocimiento para certificaciones por parte de Cisco: CCNA, CCNA Wireless, CCNP. Disfruto leer libros técnicos, así cómo novelas y literatura; Mario Benedetti se encuentra siempre en mi preferencia. Pink  Floyd, mi banda favorita. }
-%
-%\vspace{-3mm}
-%
-%%Section
-%\section{Extra}
-%\small
-%\cvline{\Large Cursos}{Curso de Primeros auxilios y Camillería. Impartido por medio del \emph{ISSSTE.}}
 
 \end{document}
