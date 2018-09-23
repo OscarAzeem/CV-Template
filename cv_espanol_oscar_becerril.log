@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 SEP 2018 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 SEP 2018 10:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**curriculum_en_ingles.tex
-(./curriculum_en_ingles.tex
+**cv_espanol_oscar_becerril.tex
+(./cv_espanol_oscar_becerril.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/moderncv/moderncv.cls
@@ -351,9 +351,9 @@ tter compatibility patches
 \cvcolumnautowidth=\skip66
 \bibindent=\skip67
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/moderncv/moderncvcolorblue.sty
-Package: moderncvcolorblue 2015/07/28 v2.0.0 modern curriculum vitae and letter
- color scheme: blue
+(/usr/local/texlive/2016/texmf-dist/tex/latex/moderncv/moderncvcolorblack.sty
+Package: moderncvcolorblack 2015/07/28 v2.0.0 modern curriculum vitae and lette
+r color scheme: black
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/moderncv/moderncvstyleclassic.sty
 Package: moderncvstyleclassic 2015/07/28 v2.0.0 modern curriculum vitae and let
@@ -747,11 +747,11 @@ Package ifvtex Info: VTeX not detected.
 )
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 20.
+less on input line 19.
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 21.
+less on input line 20.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
@@ -861,7 +861,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip80
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 40.
+Package hyperref Info: Option `breaklinks' set `true' on input line 39.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -875,47 +875,79 @@ File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 40.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 39.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 40.
+(hyperref)                removing `\@ifnextchar' on input line 39.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 40.
+(hyperref)                removing `\smallskipamount' on input line 39.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 40.
+(hyperref)                removing `\\' on input line 39.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 40.
+(hyperref)                removing `\@ifnextchar' on input line 39.
 
-(./curriculum_en_ingles.aux)
-\openout1 = `curriculum_en_ingles.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 40.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\smallskipamount' on input line 39.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 39.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 39.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\smallskipamount' on input line 39.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 39.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 39.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\smallskipamount' on input line 39.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 39.
+
+(./cv_espanol_oscar_becerril.aux)
+\openout1 = `cv_espanol_oscar_becerril.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 39.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -948,7 +980,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 40.
+LaTeX Info: Redefining \microtypecontext on input line 39.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -967,8 +999,8 @@ ABD: EveryShipout initializing macros
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-LaTeX Info: Redefining \it@ocap on input line 40.
-LaTeX Info: Redefining \it@ccap on input line 40.
+LaTeX Info: Redefining \it@ocap on input line 39.
+LaTeX Info: Redefining \it@ccap on input line 39.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1005,7 +1037,7 @@ LaTeX Info: Redefining \it@ccap on input line 40.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 40.
+Package hyperref Info: Link coloring OFF on input line 39.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1014,42 +1046,42 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count164
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 39.
+LaTeX Info: Redefining \pageref on input line 39.
+LaTeX Info: Redefining \nameref on input line 39.
 
-(./curriculum_en_ingles.out) (./curriculum_en_ingles.out)
+(./cv_espanol_oscar_becerril.out) (./cv_espanol_oscar_becerril.out)
 \@outlinefile=\write4
-\openout4 = `curriculum_en_ingles.out'.
+\openout4 = `cv_espanol_oscar_becerril.out'.
 
 \makecvheaddetailsbox=\box56
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 42.
+(Font)              <10> on input line 41.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 42.
+(Font)              <7> on input line 41.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 42.
+(Font)              <5> on input line 41.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
 \makecvheadpicturebox=\box57
 
-<imagen_curriculum_traje.png, id=40, 70.5837pt x 81.6651pt>
+<imagen_curriculum_traje.png, id=36, 70.5837pt x 81.6651pt>
 File: imagen_curriculum_traje.png Graphic file (type png)
 
 <use imagen_curriculum_traje.png>
-Package pdftex.def Info: imagen_curriculum_traje.png used on input line 42.
+Package pdftex.def Info: imagen_curriculum_traje.png used on input line 41.
 (pdftex.def)             Requested size: 86.0pt x 99.50914pt.
 \makecvheaddetailswidth=\skip81
 \makecvheadpicturewidth=\skip82
 \makecvheadnamebox=\box58
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 52.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 48.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1058,41 +1090,42 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[][]$\T1/lmtt/m/n/10 https : / / www . linkedin . com / in /
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[][]$\T1/lmtt/m/n/10 http : / / www . linkedin . com / in /
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 67--67
+[]\T1/lmr/m/n/10 (+20) Unix, Li-nux, Win-do-ws, MAC OSX,
  []
 
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
 n_curriculum_traje.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 110--112
-
- []
-
-
-Underfull \hbox (badness 3612) in paragraph at lines 151--151
+Underfull \hbox (badness 3612) in paragraph at lines 128--128
 []|\T1/lmr/bx/n/10.95 XVI Con-gre-so Na-cio-nal de In-ge-nie-ría Elec-tro-me-cá
 -ni-ca y de si-ste-mas\T1/lmr/m/n/10.95 (+20) ,
  []
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
- (./curriculum_en_ingles.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
-Package rerunfilecheck Info: File `curriculum_en_ingles.out' has not changed.
-(rerunfilecheck)             Checksum: 962692E37E65741146E1C9A27AE56041;1045.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
+ (./cv_espanol_oscar_becerril.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 152.
+Package rerunfilecheck Info: File `cv_espanol_oscar_becerril.out' has not chang
+ed.
+(rerunfilecheck)             Checksum: 694F260F4C96E9881D2946AA488F4CF2;887.
  ) 
 Here is how much of TeX's memory you used:
- 29411 strings out of 493014
- 539472 string characters out of 6133351
- 617733 words of memory out of 5000000
+ 29416 strings out of 493014
+ 539596 string characters out of 6133351
+ 615840 words of memory out of 5000000
  32489 multiletter control sequences out of 15000+600000
- 71529 words of font info for 74 fonts, out of 8000000 for 9000
+ 71778 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,20n,58p,10372b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,20n,58p,10377b,531s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2016/texmf-dist/
@@ -1105,10 +1138,10 @@ xlive/2016/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2016
 t/fonts/type1/public/lm/lmro17.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
 pe1/public/lm/lmtt10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
 /marvosym/marvosym.pfb>
-Output written on curriculum_en_ingles.pdf (2 pages, 362988 bytes).
+Output written on cv_espanol_oscar_becerril.pdf (2 pages, 357990 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 22610 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 108 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 22602 words of extra memory for PDF output out of 24883 (max. 10000000)
 
