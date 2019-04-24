@@ -2,7 +2,7 @@
 
 % moderncv themes
 %\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
-\moderncvtheme[black]{classic}                % idem
+\moderncvtheme[blue]{classic}                % idem
 
 \usepackage[T1]{fontenc}
 % character encoding
@@ -42,50 +42,69 @@
 \vspace{-10mm}
 
 %Section
-\section{Info}
-\cvcomputer{Nacimiento}{\small 22 de Octubre de 1992, México (CDMX) (25 años)\normalsize}{\tiny .}{\small \tiny \normalsize}
+\section{Información}
+%\cvcomputer{Nacimiento}{\small Octubre 22, 1992. en México (DF)}\normalsize}{Nacionalidad}{\small Mexicana \normalsize}
+
+\cvcomputer{Nacimiento}{\small Octubre 22, 1992 (26 años). México.\normalsize}{\tiny .}{\small \tiny \normalsize}
+
 %\cvcomputer{Additional Address}{J.Salvadora 14, Ciglenica, 44320 Kutina, Croatia}{Driving License}{\small B\normalsize}
-\cvcomputer{LinkedIn}{\small \url{http://www.linkedin.com/in/oscarazeem/}\normalsize}{}{}
-\cvcomputer{Página Web}{\small \url{http://redirac.com}\normalsize}{}{\small}
+\cvcomputer{LinkedIn}{\small \url{https://www.linkedin.com/in/oscarazeem/}\normalsize}{Webpage}{\small \url{http://redirac.com}\normalsize}
+%\cvcomputer{Blog}{\small \url{http://ntrpivan.blogspot.com}\normalsize}{Skype}{\small ivan.ntrp}
 
 \vspace{-2mm}
 
 %Section
-\section{Empleo Deseado y Habilidades actuales}
-\cvline{}{\Large Ingeniero en Comunicaciones y electrónica. Programador. Redes de cómputo. IT}
-\cvline{}{\small Sobre los años, gracias a mi sed de conocimiento, he ganado experiencia en la ciencia de la computación, oscilando desde las redes de cómputo, los sistemas operativos, a lenguajes de programación y plataformas sobre las cuales están basadas. 
-A lo largo de éste camino he continuado mejorando mi aproximación a los problemas, tratando de implementar, generalizar y optimizar las soluciones. En los trabajos académicos he sido capaz de demostrar excelentes habilidades para trabajar en equipo y capacidad para trabajar con grupos externos. Otra de mis virtudes es la habilidad de resolver casi cualquier problema computacional gracias a mi excelente capacidad para buscar información, y el tiempo que he trabajado en el campo de la computación.
-%Me especializo en Redes de cómputo, dónde asigno o reasigno direcciones IP a los equipos en cierto bloque de direcciones. Propongo y configuro subredes que mejoren la infraestructura de la red. Coloco, realizo y doy mantenimiento al cableado que conectan switches, routers, y DTE (cableado UTP). Administro contraseñas, configuro routers y switches de la marca CISCO.
-}
+\section{Experiencia profesional}
+\cvline{}{\Large Data Scientist y Desarrollador BI  (ETL)}
+\cvline{}{\small Experiencia cómo desarrollador Business Intelligence (BI) en la compañía Bancomer, utilizando múltiples manejadores de bases de datos (DBMSs) tales cómo Oracle, Teradata y MySQL. Dichos DBMSs son utilizados para la Extracción, Transformación y Carga de tablas del tipo históricas y Staging, proceso conocido como ETL. Tal proceso ETL es realizado mediante el software BI Informatica PowerCenter y el lenguaje PL/SQL. La automatización es realizada mediante el software Control-M, junto con scripts BASH/KSH en un entorno UNIX/Linux. Experiencia cómo Analista de Datos en la compañía AT\&T, aplicando algoritmos de aprendizaje de máquina utilizando el lenguaje Python junto con las librerías ScikitLearn and Tensorflow con el propósito de clasificación de celdas 3G/4G por niveles de degradación; además de análisis mediante algoritmos de regresión para evaluar la probabilidad de fallo por cada celda. Experiencia cómo desarrollador Machine Learning mediante tesis de Maestría a través del desarrollo de un sistema de red de detección de intrusos (NIDS) utilizando algoritmos de aprendizaje de máquina tales cómo, KNN, Árboles de decisión, Bosques aleatorios, Máquina de soporte de vectores kernelizados y redes neuronales, todos utilizando los lenguajes Python/R, aplicados a la base de datos  Knowledge Discovery Database (KDD) y su versión más reciente NSLKDD. Todos los algoritmos de aprendizaje de máquina listados antes fueron aplicados cómo una función del tipo: fitness, dentro de algoritmos de búsqueda heurística tales como Random Mutation Hill Climbing (RMHC), Simulated Annealing (SA), Genetic Algorithms (GA) e Ions Motion Optimization Algorithm (IMO), con el objetivo de realizar una selección de características (dimensiones) relevantes en el dataset.}
 
 
 \vspace{-4mm}
 
 %Section
-\section{Habilidades Computacionales} 
-\cvline{Lenguajes}{\small C, C++, C~$\#$, ASM, BASH, \LaTeX, Python}
-\cvcomputer{Plataformas}{Unix, Linux, Windows, MAC OSX, Arduino, Cisco IOS}  {}{}
-\cvline{Herramientas}{Git, Grep, Emacs, Eclipse IDE, Netbeans IDE, Sublime Text, TexStudio, TexMaker, Matematica, Matlab, Office Suite, Photoshop, Gimp, Wireshark, Cisco Packet Tracer, GNS3, TensorFlow, Scikit-Learn}
+\section{Habilidades computacionales y metodologías de desarrollo Agile} 
+\cvline{Lenguajes}{Python, R, SQL, PL/SQL, BASH, KSH, \small C, C++, Matlab, ASM, \LaTeX}
+\cvline{DBMSs}{Teradata, Oracle, MySQL}
+\cvline{BI}{Informatica PowerCenter, Workflow, Designer, Repository, Monitor}
+\cvline{Plataformas}{Unix, Linux, Windows, Control-M, MAC OSX}  {}{}
+\cvline{Tools - Librerías}{
+	Git, Github, ScikitLearn, Tensorflow, Numpy, Pandas, Matplotlib, Seaborn, Teradata Studio, Oracle Developer, MySQL Workbench,
+	Emacs, Eclipse IDE, Sublime Text, TexStudio, Office Suite (Excel, Word, Power Point), Jupyter Notebook.}
+\cvline{Agile}{Scrum}  {}{}
+
 \vspace{-3mm}
+
+
+\newpage
+
+
+%Section
+\section{Experiencia Laboral}
+
+\cventry{06/2018-actualmente}{Bancomer - Softtek}{Business Intelligence}{Desarrollador ETL - Informatica PowerCenter. Oracle DBA}{}{}{}
+\vspace{-1mm}
+
+\cventry{03/2018-06/2018}{AT\&T - Ibérica}{Analista de Datos Jr}{Área Triage. Monitoreo de la calidad de las celdas 3G y 4G.}{}{}
+\vspace{-1mm}
+
 
 %Section
 
 \section{Educación}
-\cventry{2015-2017}{Maestría en Ciencias en Ingeniería de Telecomunicaciones}{\href{http://www.sepi.esimez.ipn.mx//}{Instituto Politécnico Nacional}}{SEPI-ESIME}{Zacatenco}{Posgrado. Especialidad en redes de cómputo. Créditos completados.}
+\cventry{2015-2018}{Maestría en Ciencias en Ingeniería de Telecomunicaciones}{\href{http://www.sepi.esimez.ipn.mx//}{Instituto Politécnico Nacional}}{SEPI-ESIME}{Zacatenco}{Posgrado. Especialidad en redes de cómputo y machine learning. Créditos completados.}
 
 \cventry{2010-2015}{Ingeniería en comunicaciones y electrónica}{\href{http://www.esimez.ipn.mx//}{Instituto Politécnico Nacional}}{ESIME}{Zacatenco}{Grado Universitario. Especialidad en computación con cédula profesional.}
   
-\cventry{2007-2010}{Técnico en Redes de cómputo}{\href{http://www.cet1.ipn.mx/}{Instituto Politécnico Nacional, CET 1}}{Walter Cross Buchanan}{Grado de Bachillerato}{}
+%\cventry{2007-2010}{Técnico en Redes de cómputo}{\href{http://www.cet1.ipn.mx/}{Instituto Politécnico Nacional, CET 1}}{Walter Cross Buchanan}{Grado de Bachillerato}{}
 
 %\cventry{2004-2007}{Técnico en Secretariado}{Escuela Secundaria Técnica}{No. 90}{Arturo Rosenblueth Stearns}{Educación Secundaria}{}
 \vspace{-3mm}
 
-\newpage
+%\newpage
 \section{Lenguajes Adicionales}
 %\hspace{25mm}\small  Porcentajes de Idiomas \href{}{}
 %\vspace{5mm}
-
-Veinte niveles cursados en la escuela de inglés: Quick Learning. Nivel B1 avalado por el Centro de Lenguas Extranjeras del Instituto Politécnico Nacional 
+Veinte niveles cursados en la escuela de inglés: Quick Learning. Nivel B2 avalado por el Centro de Lenguas Extranjeras (CENLEX) del Instituto Politécnico Nacional 
 
 \begin{tabular}{p{67mm} p{40mm} p{45mm} p{20mm}}
 & \textbf{Comprensión} & \textbf{Hablado} & \textbf{Escrito} \\
@@ -100,53 +119,30 @@ Veinte niveles cursados en la escuela de inglés: Quick Learning. Nivel B1 avala
 %	\begin{tabular}{ p{20mm} p{20mm} p{20mm} p{20mm} p{21mm}}
 %		90\% & 90\% & 90\% & 90\% & 90\%
 %	\end{tabular}}
-\cvlanguage{Ingles}{Avanzado}{
+\cvlanguage{Inglés}{Avanzado}{
 	\begin{tabular}{ p{20mm} p{20mm} p{20mm} p{20mm} p{21mm}}
-		90\% & 95\% & 90\% & 90\% & 90\%
+		95\% & 100\% & 90\% & 90\% & 95\%
 	\end{tabular}}
 
 \section{Cursos}
-
-%\cventry{Plataforma Udemy}{Python A-Z: Python For Data Science}{\href{https://www.udemy.com}}{}{}{}{}{}
-%
-%\cventry{Plataforma Udemy}{Bash Programming Course}{\href{https://www.udemy.com}{}}{}{}{}{}
-%
-%\cventry{Plataforma Udemy}{The Complete Wireshark Course}{\href{https://www.udemy.com}{}}{}{}{}{}
-%
-%\cventry{Plataforma Udemy}{CCNA 2017 200-125 Video Boot Camp}{\href{https://www.udemy.com}{}}{}{}{}{}
-%
+\cventry{2018-Softtek}{ETL - Informatica PowerCenter, SCRUM, SQL}{}{}{}{}
+\cventry{" -Coursera}{IBM - Data Scientist}{}{}{}{}
+%\cventry{2017-Udemy}{Python A-Z: Python For Data Science, Bash Programming Course, The Complete Wireshark Course, CCNA 2017 200-125 Video Boot Camp}{}{}{}{}
+\vspace{-1mm}
 
 
-\cventry{Plataforma Udemy}{Python A-Z: Python For Data Science, Bash Programming Course, The Complete Wireshark Course, CCNA 2017 200-125 Video Boot Camp}{}{}{}{}{}
-\vspace{-3mm}
+\section{Conferencias}
 
+\cventry{2018}{Congreso Nacional de Expo Acustica}{http://www.expoacustica.ipn.mx/}{Tema: ``Reconocimiento de voz utilizando redes neuronales''}{México. CDMX}{}{}{}
 
-\section{Ponencias}
+\cventry{2017}{XVI Congreso Nacional de Ingeniería Electromecánica y de sistemas}{http://www.sepi.esimez.ipn.mx/cnies/}{Tema: ``Algoritmo IMO y SVMs para la elaboración de un sistema de red de detección de intrusos ligero basado en anomalías mediante la base de datos NSL-KDD}{México. CDMX}{}{}{}
 
-\cventry{2018}{Congreso Nacional de Expo Acustica}{http://www.expoacustica.ipn.mx/}{Tópico: ``Reconocimiento de voz utilizando redes neuronales''}{México. CDMX}{}{}{}
+\cventry{2016}{Coloquio de Seguridad en Redes de Computadoras}{Tema: ``Sistemas de red de detección de intrusos y Machine learning''}{México. CDMX}{}{}{}
 
-\cventry{2017}{XVI Congreso Nacional de Ingeniería Electromecánica y de sistemas}{http://www.sepi.esimez.ipn.mx/cnies/}{Tópico: ``Algoritmo IMO y SVMs para la elaboración de un sistema de red de detección de intrusos ligero basado en anomalías mediante la base de datos NSL-KDD}{México. CDMX}{}{}{}
-
-\cventry{2016}{Coloquio de Seguridad en Redes de Computadoras}{Topic: ``Sistema de red de detección de intrusos''}{México. CDMX}{}{}{}
-
-\cventry{2016}{Congreso Nacional de Expo Acustica}{http://www.expoacustica.ipn.mx/}{Tópico: ``Uso de algoritmos de ML en el reconocimiento de voz''}{México. CDMX}{}{}{}
-
-
-
+\ %cventry{2016}{Congreso Nacional de Expo Acustica}{http://www.expoacustica.ipn.mx/}{Topic: ``Uso de algoritmos de ML en el reconocimiento de voz''}{México. CDMX}{}{}{}
 
 
 \vspace{-3mm}
 
-
-%Section
-%\section{Intereses y Hobbies}
-%\cvline{}{\small Busco generar el conocimiento para certificaciones por parte de Cisco: CCNA, CCNA Wireless, CCNP. Disfruto leer libros técnicos, así cómo novelas y literatura; Mario Benedetti se encuentra siempre en mi preferencia. Pink  Floyd, mi banda favorita. }
-%
-%\vspace{-3mm}
-%
-%%Section
-%\section{Extra}
-%\small
-%\cvline{\Large Cursos}{Curso de Primeros auxilios y Camillería. Impartido por medio del \emph{ISSSTE.}}
 
 \end{document}
