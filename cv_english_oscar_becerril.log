@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  1 SEP 2019 18:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  1 SEP 2019 19:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1073,11 +1073,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
 \makecvheadpicturebox=\box58
-<imagen_curriculum_traje.png, id=36, 70.5837pt x 81.6651pt>
-File: imagen_curriculum_traje.png Graphic file (type png)
-<use imagen_curriculum_traje.png>
-Package pdftex.def Info: imagen_curriculum_traje.png  used on input line 42.
-(pdftex.def)             Requested size: 86.0pt x 99.50914pt.
+<linkedin_profile.png, id=40, 548.0475pt x 728.7225pt>
+File: linkedin_profile.png Graphic file (type png)
+<use linkedin_profile.png>
+Package pdftex.def Info: linkedin_profile.png  used on input line 42.
+(pdftex.def)             Requested size: 82.0pt x 109.02567pt.
 \makecvheaddetailswidth=\skip81
 \makecvheadpicturewidth=\skip82
 \makecvheadnamebox=\box59
@@ -1101,58 +1101,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--52
 
 [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
-n_curriculum_traje.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 112--114
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./linke
+din_profile.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Underfull \hbox (badness 3612) in paragraph at lines 152--152
+Underfull \hbox (badness 3612) in paragraph at lines 158--158
 []|\T1/lmr/bx/n/10.95 XVI Con-gre-so Na-cio-nal de In-ge-nie-ría Elec-tro-me-cá
 -ni-ca y de si-ste-mas\T1/lmr/m/n/10.95 (+20) ,
  []
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
  (./cv_english_oscar_becerril.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
-
-
-Package rerunfilecheck Warning: File `cv_english_oscar_becerril.out' has change
-d.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cv_english_oscar_becerril.out':
-(rerunfilecheck)             Before: FDF51F4FDA4C559163348BA28955F1CF;965
-(rerunfilecheck)             After:  8ED5153BCF1F63192D85B6E9EE4F2681;1126.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
+Package rerunfilecheck Info: File `cv_english_oscar_becerril.out' has not chang
+ed.
+(rerunfilecheck)             Checksum: A27B2CBF5CDB161B5A73BA470ED0D22C;1078.
  ) 
 Here is how much of TeX's memory you used:
- 30791 strings out of 492649
- 571371 string characters out of 6129622
- 665143 words of memory out of 5000000
- 34200 multiletter control sequences out of 15000+600000
- 598576 words of font info for 87 fonts, out of 8000000 for 9000
+ 30783 strings out of 492649
+ 571275 string characters out of 6129622
+ 664122 words of memory out of 5000000
+ 34203 multiletter control sequences out of 15000+600000
+ 601108 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,20n,58p,10377b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/20
-18/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-di
-st/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
-pe1/public/lm/lmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
-lm/lmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr7.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/loca
-l/texlive/2018/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/
-2018/texmf-dist/fonts/type1/public/lm/lmro17.pfb></usr/local/texlive/2018/texmf
--dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2018/texmf-dist/font
-s/type1/public/marvosym/marvosym.pfb>
-Output written on cv_english_oscar_becerril.pdf (2 pages, 363124 bytes).
+18/texmf-dist/fonts/type1/public/lm/lmbxo10.pfb></usr/local/texlive/2018/texmf-
+dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/
+type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
+c/lm/lmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr6.p
+fb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive
+/2018/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2018/texm
+f-dist/fonts/type1/public/lm/lmro17.pfb></usr/local/texlive/2018/texmf-dist/fon
+ts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
+ublic/marvosym/marvosym.pfb>
+Output written on cv_english_oscar_becerril.pdf (2 pages, 995455 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
+ 113 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  11 named destinations out of 1000 (max. 500000)
- 22602 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 23122 words of extra memory for PDF output out of 24883 (max. 10000000)
 
