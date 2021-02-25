@@ -25,10 +25,12 @@
 \familyname{ \\Óscar Azeem}
 \title{Curriculum Vitae}               % optional, remove the line if not wanted
 \address{México, CDMX}{}    % optional, remove the line if not wanted
-\mobile{55 10789872}                    % optional, remove the line if not wanted
+%\mobile{55 10789872}                    % optional, remove the line if not wanted
+\mobile{}                    % optional, remove the line if not wanted
 %\phone{}                      % optional, remove the line if not wanted
 %\fax{312 996 1491}                          % optional, remove the line if not wanted
-\email{oscar.azeem@me.com}                      % optional, remove the line if not wanted
+%\email{oscar.azeem@me.com}                      % optional, remove the line if not wanted
+\email{}                      % optional, remove the line if not wanted
 %\extrainfo{additional information (optional)} % optional, remove the line if not wanted
 \photo[82pt]{linkedin_profile_picture_small_02.jpg}          % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
 
@@ -46,10 +48,14 @@
 \section{Information}
 %\cvcomputer{Nacimiento}{\small Octubre 22, 1992. en México (DF)}\normalsize}{Nacionalidad}{\small Mexicana \normalsize}
 
-\cvcomputer{Born}{\small October 22, 1992 (28 years old). Mexico.\normalsize}{\tiny .}{\small \tiny \normalsize}
+%\cvcomputer{Born}{\small October 22, 1992 (28 years old). Mexico.\normalsize}{\tiny .}{\small \tiny \normalsize}
+\cvcomputer{Born}{\small October 22, 1992 (28 years old). Mexico. CDMX\normalsize}{Phone:}{\small (Mex+52) 55-10-78-98-72 \normalsize}
+
 
 %\cvcomputer{Additional Address}{J.Salvadora 14, Ciglenica, 44320 Kutina, Croatia}{Driving License}{\small B\normalsize}
-\cvcomputer{LinkedIn}{\small \url{https://www.linkedin.com/in/oscarazeem/}\normalsize}{Webpage}{\small \url{http://redirac.com}\normalsize}
+%\cvcomputer{LinkedIn}{\small \url{https://www.linkedin.com/in/oscarazeem/}\normalsize}{}{\small \email{oscar.azeem@me.com}\normalsize}
+\cvcomputer{LinkedIn}{\small \url{https://www.linkedin.com/in/oscarazeem/}\normalsize}{Email:}{\small  \href{mailto:oscar.azeem@me.com}{oscar.azeem@me.com}\normalsize}
+%\cvcomputer{LinkedIn}{\small \url{https://www.linkedin.com/in/oscarazeem/}\normalsize}%{Webpage}{\small \url{http://aidos.mx}\normalsize}
 %\cvcomputer{Blog}{\small \url{http://ntrpivan.blogspot.com}\normalsize}{Skype}{\small ivan.ntrp}
 
 \vspace{+1mm}
@@ -58,14 +64,12 @@
 %Section
 \section{Professional Profile}
 \cvline{}{%Header
-	\Large Data Scientist and Business Intelligence Developer}
+	\Large Data Engineer and Business Intelligence Developer}
 \cvline{}{%Descripción
 	\small
 	%start
 	%
-	Experience as a Business Intelligence (BI) developer at the BBVA Bancomer corporation,  employing multiple Databases Management Systems (DBMSs) such as Oracle, Teradata, MySQL; for extraction, transformation, and load of historical/staging tables; processes known as ETL.  Such process is done through the Informatica PowerCenter BI software and the PL/SQL language. Automation it's done by BASH/KSH scripts in a Unix/Linux environment. 
-	Experience as a Data Analyst at the AT\&T company, applying machine learning algorithms through Python using the ScikitLearn and Tensorflow libraries, with the purpose of 3G/4G cell classification by degradation levels; also, failure probability of each cell applying regression analysis. 
-	Experience as  a Python/R Machine Learning developer by Master's Thesis through the development of a Network Intrusion Detection System (NIDS) using Machine Learning Algorithms as KNN, Decision Trees, Random Forest, Kernelized Support Vector Machines, Neuronal Networks, all using Python, applied to the Knowledge Discovery Database (KDD). All the algorithms listed before were applied as a fitness function within the heuristic search algorithms such as Random Mutation Hill Climbing (RMHC), Simulated Annealing (SA), Genetic Algorithms (GA), and Ions Motion Optimization Algorithm (IMO), all to select relevant features  (feature selection).
+	Experience as Data Engineer and Business Intelligence developer. Building, maintaining and automating ETL processes and pipelines complying with business rules and cases. Employing several technologies such as Informatica PowerCenter (IPC), Exadata (Oracle), Teradata for single node computation, and Hadoop (HDFS), Spark (Pyspark), Scala for distributed workload. Proficient knowledge working with Unix, coding Bash, and KSH scripts, using built-in tools such as AWK and RegEx for data cleaning. Experienced with SQL and PL/SQL. 
 	%
 	%end
 }
@@ -74,16 +78,19 @@
 \section{Work Experience}
 
 
-\cventry{06/2018-current}{BBVA - Softtek}{Business Intelligence Developer - ETL (IPC)}{\newline \textbf{Activities:} Use of the pmrep and pmcmd commands from Informatica PowerCenter inside BASH/KSH scripts to automate workflow execution, extraction, importation and exportation. Load of fixed with and delimited flat files such as CSV, TSV, COBOL to multiple staging or historical tables applying IPC transformations such as Expression, Filter, LookUp, UpdateStrategy, Joiner, Union, SQL, Stored procedure, Normalizer. PL/SQL query translation to IPC mapping/workflows complying business rules}{}{}
+\cventry{07-2020 / current}{BBVA - Softtek}{Data Engineer}{\newline \textbf{Activities:} Schemas creation and definition of Avro and Parquet files for the Hadoop HDFS Data warehouse. Use of Spark (Pyspark) for data ingestion and validation. System control version utilizing Bitbucket and Jira for management. A DevOps culture through Jenkins, Jira (Atlassian), Jfrog Artifactory, and Bitbucket integration.  Creating, maintaining, and implementing batch JOBs through the BMC Control-M scheduling software}{}{}
 \vspace{-1mm}
 
-\cventry{04/2018-06/2018}{AT\&T - Ibérica}{Jr. Data Analyst}{\newline \textbf{Activities:} Develop of machine learning models such as Random Forest, Polynomial regression, Support Vector Machines, for 3G and 4G cells classification and failure probability using the Python language. Load of CSV files using the Python Pandas library to filter, mining and export information to an SQL server for further analysis}{}{}
+\cventry{07-2020 06-2018}{BBVA - Softtek}{Business Intelligence Developer - ETL (IPC)}{\newline \textbf{Activities:} Use of the pmrep and pmcmd embedded commands from Informatica PowerCenter inside BASH/KSH scripts to automate workflow execution, extraction, importation, and exportation. Implementing IPC transformations such as Expression, Filter, LookUp, UpdateStrategy, Joiner, Union, SQL, Stored procedure, Normalizer. PL/SQL query translation to IPC mapping/workflows complying with business rules. Retrieval information from multiple sources like Mainframe computers, Data Lake repositories, RDBMS databases (Oracle, Teradata). Creating, maintaining, and implementing batch JOBs through the BMC Control-M scheduling software}{}{}
+\vspace{-1mm}
+
+\cventry{06-2018 03-2018}{AT\&T - Ibérica}{Jr. Data Analyst}{\newline \textbf{Activities:} Develop machine learning models such as Random Forest, Polynomial Regression, and Support Vector Machines to obtain the 3G and 4G cellular cells' failure probability for each day, using Python Scikit-Learn libraries. Data cleaning applying Python Pandas and Regex for CSV files. Loading of information to SQL Server for reporting and further analysis}{}{}
 \vspace{-1mm}
 
 \newpage
 
 \section{Education}
-\cventry{2016-2018}{M.S. Telecommunications Engineering}{\href{http://www.sepi.esimez.ipn.mx//}{Instituto Politécnico Nacional}}{Sección de Estudios de Posgrado e Invesgigación (SEPI) ESIME}{Zacatenco}{Master's Degree. Network computer and Machine Learning speciality.}
+\cventry{2016-2018}{M.S. Telecommunications Engineering}{\href{http://www.sepi.esimez.ipn.mx//}{Instituto Politécnico Nacional}}{Sección de Estudios de Posgrado e Investigación (SEPI) ESIME}{Zacatenco}{Master's Degree. Network computer and Machine Learning speciality.}
 
 \cventry{2011-2016}{Communications and Electronics Engineering}{\href{http://www.esimez.ipn.mx//}{Instituto Politécnico Nacional}}{ESIME}{Zacatenco}{Bachelor's Degree. Computation speciality with professional license}
 
@@ -102,13 +109,13 @@
 
 %Section
 \section{Computational Skills and Agile Software Development Methodologies } 
-\cvline{Languages}{Python, R, SQL, PL/SQL, BASH, KSH, \small C, C++}
-\cvline{DBMSs}{Teradata, Oracle, MySQL}
-\cvline{BI}{Informatica PowerCenter, Workflow, Designer, Repository, Monitor, Control-M, Remedy}
-\cvline{Platforms}{Unix, Linux, Windows}  {}{}
+\cvline{Languages}{Python, SQL, PL/SQL, BASH, KSH, Scala, \small C, C++}
+\cvline{DBMSs}{Teradata, Oracle, MySQL, Hadoop}
+\cvline{BI}{Informatica PowerCenter (IPC), BMC Control-M Scheduling, Remedy, Jira, Scrum}
+\cvline{Platforms}{Unix, Windows}  {}{}
 \cvline{Tools - Libraries}{
-	Git, Github, ScikitLearn, Tensorflow, Numpy, Pandas, Matplotlib, Seaborn, Teradata Studio, Oracle Developer, MySQL Workbench,
-	Emacs, Eclipse IDE, Sublime Text, TexStudio, Office Suite (Excel, Word, Power Point), Jupyter Notebook.}
+	Git, Github, Bitbucket, Jupyter Notebook, ScikitLearn, Numpy, Pandas, Matplotlib, Seaborn, Teradata Studio, Oracle SQL Developer, MySQL Workbench, TexStudio, Office Suite (Excel, Word, Power Point).}
+\cvline{DevOps}{Jenkins, Jfrog Artifactory}
 \cvline{Agile}{Certified SAFe 5.0 Practitioner, Scrum}  {}{}
 
 \vspace{-3mm}
@@ -126,7 +133,7 @@
 \section{Languages}
 %\hspace{25mm}\small  Porcentajes de Idiomas \href{}{}
 %\vspace{5mm}
-Twenty levels completed at the Quick Learning English school. Level B2 endorsed by the Centro de Lenguas Extranjeras del Instituto Politécnico Nacional (CENLEX) English school.
+Level C1 endorsed by the EF SET organization.
 \\
 
 \begin{tabular}{p{67mm} p{40mm} p{45mm} p{20mm}}
@@ -145,7 +152,7 @@ Twenty levels completed at the Quick Learning English school. Level B2 endorsed 
 	\end{tabular}}
 \cvlanguage{English}{Advanced}{
 	\begin{tabular}{ p{20mm} p{20mm} p{20mm} p{20mm} p{21mm}}
-		95\% & 100\% & 90\% & 90\% & 95\%
+		95\% & 100\% & 85\% & 85\% & 95\%
 	\end{tabular}}
 
 
