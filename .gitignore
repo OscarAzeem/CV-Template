@@ -1,8 +1,5 @@
-./linkedin_profile_picture_03.png
-./linkedin_profile_picture_02.png
-./*.aux
-./*.synctex.gz
-./*.log
-./*.out
-./*.png
-cv_english_oscar_becerril.aux
+*.aux
+*.synctex.gz
+*.log
+*.out
+*.png
