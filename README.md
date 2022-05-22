@@ -4,4 +4,4 @@ Template de ficheros .tex con mi curriculum vitae.
 
 ## Screenshot del Curriculum Vitae
 
-![CV Preview](https://github.com/OscarAzeem/Cv_template/blob/master/cv_screenshot.png)
+![CV Preview](https://github.com/OscarAzeem/CV-Template/blob/master/cv_screenshot.png)
