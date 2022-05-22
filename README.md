@@ -13,3 +13,7 @@ Template de ficheros .tex con mi curriculum vitae.
 </object>
 
 [embed]https://github.com/OscarAzeem/CV-Template/blob/master/cv_english_oscar_becerril.pdf[/embed]
+
+<object data="./cv_english_oscar_becerril.pdf" width="1000" height="1000" type='application/pdf'></object>
+
+<object data="https://github.com/OscarAzeem/CV-Template/blob/master/cv_english_oscar_becerril.pdf" width="1000" height="1000" type='application/pdf'></object>
