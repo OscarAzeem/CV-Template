@@ -11,3 +11,5 @@ Template de ficheros .tex con mi curriculum vitae.
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/OscarAzeem/CV-Template/blob/master/cv_english_oscar_becerril.pdf">Download PDF</a>.</p>
     </embed>
 </object>
+
+[embed]https://github.com/OscarAzeem/CV-Template/blob/master/cv_english_oscar_becerril.pdf[/embed]
